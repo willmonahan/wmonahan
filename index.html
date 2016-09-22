@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fucking with Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/additional.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--<h1>Hello, world!</h1> -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <div class="container">
+      <div class="row"><div class="col-sm-12 hidden-xs" style="margin-bottom: 30px"></div></div>
+      <div class="row">
+        <nav class="navbar navbar-default col-sm-12 col-md-10 col-md-push-1">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                WM
+              </a>
+            </div>
+            <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">First</a></li>
+                <li><a href="bsf2.html">Second</a></li>
+                <li><a href="bsf3.html">Third</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <img src="images/headshot.jpg" class="col-sm-5 col-sm-push-7 col-md-4 col-md-push-7 img-responsive img-circle">
+        <p class="col-sm-7 col-sm-pull-5 col-md-6 col-md-pull-3">This is the 8 column paragraph. Normally, this would be longer, but instead I'm just typing random things. This appears second within the HTML file, but I want it to show up on the left. But, it should be on the bottom when I reduce the window size to mobile.</p>
+      </div>
+    </div>
+  </body>
+</html>
