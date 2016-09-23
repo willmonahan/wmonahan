@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Main_Layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720 720" style="enable-background:new 0 0 720 720;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{display:none;fill:#470909;}
+</style>
+<g id="W">
+	<path d="M73.7,262.5h46.1l40.5,132.4l43.9-133H241l43.9,133l40.5-132.4h45l-66.8,196.9h-37.4L222,331.4l-44.1,127.9h-37.4
+		L73.7,262.5z"/>
+</g>
+<g id="M">
+	<path d="M644.6,459.6h-46.1L558,327.1l-43.9,133h-36.9l-43.9-133l-40.5,132.4h-45l66.8-196.9h37.4l44.1,127.9l44.1-127.9h37.4
+		L644.6,459.6z"/>
+</g>
+<line id="kerning_spacer" class="st0" x1="370" y1="262" x2="415" y2="262"/>
+<rect id="Spacing_Square" x="540" y="263" class="st1" width="38" height="37"/>
+<polyline id="Bottom_Line_1_" points="166,535 670.5,535 657.9,498 153.5,497.5 "/>
+<polyline id="Top_Line" points="61,224 565.5,224 552.9,187 48.5,186.5 "/>
+</svg>
