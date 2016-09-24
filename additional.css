@@ -1,0 +1,14 @@
+body {
+	background-color: #333;
+	color: #eee;
+}
+
+.episode {
+	border: 0px solid white;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+
+#pagecontent {
+	position: relative;
+}
