@@ -1,0 +1,28 @@
+#hiddenrow {
+	margin-bottom: 30px;
+}
+
+.navbar-brand {
+	padding: 10px 10px;
+}
+
+#headerlogo {
+	max-height: 100%;
+}
+
+#headerlogo:hover {
+	content: url("../images/logoonhover.png");
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+p > a {
+	transition: 0.5s;
+}
+
+p > a:hover {
+	text-decoration: none;
+}
