@@ -32,3 +32,8 @@ p > a:hover {
 		margin-top: 30px;
 	}
 }
+
+.row iframe {
+	display: block;
+	margin: auto;
+}
