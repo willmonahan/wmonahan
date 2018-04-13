@@ -18,20 +18,17 @@ p > a:hover {
 	text-decoration: none;
 }
 
-nav .collapse {
-	text-align: center;
-}
-
 .img-circle {
 	border-radius: 100%;
 }
 
 .navbar {
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 @media (min-width: 576px) {
 	.navbar {
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 }
