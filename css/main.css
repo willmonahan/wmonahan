@@ -1,22 +1,13 @@
+body {
+	background-color: #f8f9fa;
+}
+
 #hiddenrow {
 	margin-bottom: 30px;
 }
 
-.navbar-brand {
-	padding: 10px 10px;
-}
-
-#headerlogo {
-	max-height: 100%;
-}
-
-#headerlogo:hover {
-	content: url("../images/logoonhover.png");
-}
-
-.navbar-default {
-	background-color: #fff;
-	border: none;
+nav a {
+	transition: 0.5s;
 }
 
 p > a {
@@ -25,4 +16,16 @@ p > a {
 
 p > a:hover {
 	text-decoration: none;
+}
+
+nav .collapse {
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 100%;
+}
+
+.navbar {
+	margin-bottom: 40px;
 }

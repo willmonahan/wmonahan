@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
+		<!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Will Monahan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Will Monahan</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/additional.css" rel="stylesheet">
-    <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/>
-  </head>
-  <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+	<body>
 
-    <div id="pagemain" class="container">
-      <div class="row"><div class="col-sm-12 hidden-xs" id="hiddenrow"></div></div>
-      <div class="row">
-        <nav class="navbar navbar-default col-sm-12 col-md-10 col-md-push-1">
-          <div class="container-fluid" style="padding-left: 10px;">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">
-                <img alt="Will Monahan" src="images/logooffhover.png" id="headerlogo">
-                <img alt="Will Monahan" src="images/logoonhover.png" style="display: none;">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li class=""><a href="#" title="Coming Soon">Portfolio</a></li>
-                <li class="disabled"><a href="#" title="Coming Soon">Contact</a></li>
-              </ul>
-            </div>
+		<div class="container">
+
+			<div class="row"><div class="col-sm-12 d-none d-sm-block" id="hiddenrow"></div></div>
+
+			<div class="row">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light col-lg-12">
+          <a class="navbar-brand" href="#">Will Monahan</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Interactive</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Availability</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact</a>
+              </li>
+            </ul>
           </div>
         </nav>
-      </div>
+			</div>
 
-      <div class="row">
-        <div class="col-xs-8 col-xs-push-2 col-sm-4 col-sm-push-8 col-md-3 col-md-push-8 col-lg-4 col-lg-push-7" style="margin-top: 40px;">
-          <img src="images/headshot.jpg" class="img-responsive img-circle" title="the other image is only available on smaller desktop screens">
-          <img src="images/headshot1.jpg" class="img-responsive img-circle visible-sm-inline-block visible-md-inline-block" title="bonus content!">
-        </div>
-        <div class="col-xs-12 col-sm-8 col-sm-pull-4 col-md-7 col-md-pull-2 col-lg-6 col-lg-pull-3">
-          <h1 class="page-header">Will Monahan <small>Filmmaker, Designer</small></h1>
-          <p><strong>Will Monahan</strong> is an independent macaroni and cheese grower, photographer, designer, and musician from Toronto, Canada, currently living in New York City. After attending the University of Toronto Schools for six years, Will is currently attending the Tisch School of the Arts at New York University, where he is studying Film & Television Production. He is also an avid programmer, and is minoring in Web Development & Applications.</p>
-          <p>Will began making short films with his family and friends when he was 12 years old. This is basically what he still does, except now the stakes are slightly higher (but not too much). His experiences working in photography, design, and music have all contributed to Will's filmmaking, as well as his other work. He enjoys building simple websites and applications in his spare time.</p>
-          <p>Will's body of work includes experience in animation, documentary, narrative, and commercial film, as well as work in photography, music, and other types of art and design. Will has also worked in exhibition through both <a href="http://tiff.net">TIFF</a> and <a href="http://bafta.org/new-york">BAFTA New York</a>.</p>
-        </div>
-      </div>
-      
-    </div><!--Container End-->
+			<div class="row">
 
-  </body>
+				<div class="col-6 offset-3 col-md-4 offset-md-1">
+					<img src="images/headshot.jpg" class="img-fluid img-circle">
+					<!--img src="images/headshot1.jpg" class="img-responsive img-circle visible-sm-inline-block visible-md-inline-block" title="bonus content!"-->
+				</div>
+
+				<div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-0">
+          <h1 class="page-header">Will Monahan<br/><small>cool dude</small></h1>
+          <hr>
+					<p><strong>Will Monahan</strong> is a computer science and film & television production student at New York University. He's from Toronto, where he attended University of Toronto Schools for 6 years before moving to New York City.</p>
+					<p>Will loves media, entertainment and technology. He loves trying and learning new things.</p>
+				</div>
+
+			</div>
+			
+		</div><!--Container End-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	</body>
 </html>
