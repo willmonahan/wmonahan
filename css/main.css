@@ -38,6 +38,19 @@ p > a:hover {
 	}
 }
 
+.social .social-icon {
+	width: 1.2em;
+	height: 1.2em;
+	fill: rgba(0,0,0,.3);
+	transition: 0.5s;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.social .social-icon:hover {
+	fill: rgba(0,0,0,.5);
+}
+
 .footer {
 	background-color: #f5f5f5;
 	width: 100%;
