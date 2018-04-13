@@ -26,6 +26,7 @@ p > a:hover {
 	margin-bottom: 40px;
 	text-align: center;
 }
+
 @media (min-width: 576px) {
 	.navbar {
 		margin-top: 30px;
@@ -35,8 +36,4 @@ p > a:hover {
 .row iframe {
 	display: block;
 	margin: auto;
-}
-
-.footer {
-	background-color: #eee;
 }
