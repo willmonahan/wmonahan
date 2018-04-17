@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -20,7 +18,7 @@
 
 		<div class="container">
 
-			{% include navbar.html %}
+			<!--include navbar-->
 
 			<div class="row">
 
@@ -41,7 +39,7 @@
 			
 		</div><!--Container End-->
 
-		{% include footer.html %}
+		<!--include footer-->
 
 		<!-- Optional JavaScript -->
 		<!-- Popper.js, then Bootstrap JS -->
