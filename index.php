@@ -14,7 +14,7 @@
 
 		<div class="container">
 
-			<?php include "./resources/navbar.html" ?>
+			<?php include $_SERVER['DOCUMENT_ROOT']."/resources/navbar.html" ?>
 
 			<div class="row">
 
@@ -35,7 +35,7 @@
 			
 		</div><!--Container End-->
 
-		<?php include "./resources/footer.html" ?>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/resources/footer.html" ?>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

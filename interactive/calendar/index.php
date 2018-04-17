@@ -7,14 +7,14 @@
     <title>Will Monahan - Calendar</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link href="https://wmonahan.com/css/main.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   </head>
 	<body class="d-flex flex-column justify-content-between">
 
 		<div id="pagemain" class="container">
 			
-      <?php include "https://wmonahan.com/resources/navbar.html" ?>
+      <?php include $_SERVER['DOCUMENT_ROOT']."/resources/navbar.html" ?>
 
 			<h2 class="text-center">Interactive Computing</h2>
       <h3 class="text-center text-muted">Tutoring Availability</h3>
@@ -33,7 +33,7 @@
 			
 		</div><!--Container End-->
 
-    <?php include "https://wmonahan.com/resources/footer.html" ?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/resources/footer.html" ?>
 
 		<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
