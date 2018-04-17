@@ -14,7 +14,7 @@
 
 		<div id="pagemain" class="container">
 			
-      <?php include "./resources/navbar.html" ?>
+      <?php include "https://wmonahan.com/resources/navbar.html" ?>
 
 			<h2 class="text-center">Interactive Computing</h2>
       <h3 class="text-center text-muted">Tutoring Availability</h3>
@@ -33,7 +33,7 @@
 			
 		</div><!--Container End-->
 
-    <?php include "./resources/footer.html" ?>
+    <?php include "https://wmonahan.com/resources/footer.html" ?>
 
 		<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
