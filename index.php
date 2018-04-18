@@ -19,7 +19,7 @@
 			<div class="row">
 
 				<div class="col-6 offset-3 col-md-4 offset-md-1">
-					<img srcset="images/headshot-small.jpg 375w images/headshot.jpg 800w" class="img-fluid img-circle">
+					<img src="images/headshot-small.jpg" class="img-fluid img-circle">
 					<!--img src="images/headshot1.jpg" class="img-responsive img-circle visible-sm-inline-block visible-md-inline-block" title="bonus content!"-->
 				</div>
 
