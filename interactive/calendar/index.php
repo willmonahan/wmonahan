@@ -26,6 +26,7 @@
 			<div style="max-width: 800px; display: block; margin: auto;">
 				<p class="text-justify">Above, you can find my Google Calendar availability. I'm free to meet in the evenings and on the weekends, or if you'd like to squeeze in a quick meeting during the day, we can try to make that work too.</p>
 				<p class="text-justify">If you'd like to schedule a time to meet, just <a href="mailto:willmonahan@nyu.edu">shoot me an email</a>. My address is <a href="mailto:willmonahan@nyu.edu">willmonahan@nyu.edu</a>, and I'll try to get back to you as soon as I can.</p>
+        <p class="text-justify">Please know that I'm producing a Tisch thesis film that's shooting from April 25-30. I'll still be able to meet a bit, but my schedule is pretty hectic during those days. I'll always be available to help via email and I'll do my best to make time to meet, but it may be a bit tougher to schedule a time during those days. Thanks for understanding.</p>
 				<p class="text-justify">For your group projects, it would be awesome if you could include a quick description of the libraries and technologies that you'll be using, so that I can prepare for our meeting. Please use <strong>Interactive Computing Tutoring</strong> as the subject of your message. Thanks!</p>
 		  </div>
 
