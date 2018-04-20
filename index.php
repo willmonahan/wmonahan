@@ -20,12 +20,12 @@
 
 			<div class="row">
 
-				<div class="col-6 offset-3 col-md-4 offset-md-1">
-					<img src="images/headshot-small.jpg" class="img-fluid rounded-circle">
+				<div class="col-8 offset-2 col-md-5 offset-md-0 col-lg-4 offset-lg-1">
+					<img src="images/headshot.jpg" class="img-fluid rounded-circle">
 					<!--img src="images/headshot1.jpg" class="img-responsive img-circle visible-sm-inline-block visible-md-inline-block" title="bonus content!"-->
 				</div>
 
-				<div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-md-0">
+				<div class="col-12 col-sm-10 offset-sm-1 col-md-7 offset-md-0 col-lg-6">
 					<h1 class="page-header">I'm Will.<br/><small class="text-muted">nice to meet you.</small></h1>
 					<hr>
 					<p>I'm a student currently studying computer science and film & television production at New York University. I come from Toronto, where I previously attended University of Toronto Schools for 6 years before moving to New York City.</p>
