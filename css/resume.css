@@ -1,0 +1,21 @@
+.resume .text-resume-primary {
+	color: #0077b5
+}
+
+.resume h6,
+.resume h1,
+.resume .skill-header {
+	font-family: 'Noto Serif', sans-serif;
+}
+
+.resume .resume-date {
+	font-size: 70%;
+}
+
+.resume small {
+	color: #666;
+}
+
+.resume .skill-header {
+	color: #434343;
+}
