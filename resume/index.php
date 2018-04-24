@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet">
 		<link href="/css/main.css" rel="stylesheet">
+		<link href="/css/resume.css" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 	</head>
 	<body class="d-flex flex-column justify-content-between">
@@ -80,7 +81,7 @@
 								<div class="col-lg-5 mb-3">
 									<div class="row px-3">
 										<div class="col-12 text-right">
-											<h1 class="row font-weight-bold text-white invisible hidden-lg">__</h1>
+											<h1 class="row font-weight-bold text-white invisible hidden-lg d-none d-lg-block">__</h1>
 											<h4 class="row text-left font-weight-bold pt-3 text-resume-primary">SKILLS</h4>
 										</div>
 									</div>
