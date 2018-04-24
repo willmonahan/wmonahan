@@ -10,6 +10,7 @@
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 		<link href="/css/main.css" rel="stylesheet">
 		<link href="/css/resume.css" rel="stylesheet">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
@@ -24,55 +25,54 @@
 
 				<div class="modal-dialog modal-dialog-centered modal-lg resume" role="document">
 					<div class="modal-content">
-						<div class="modal-header">
-							<a class="btn btn-outline-info" download href="assets/pdf/ilya-resume-jan2018.pdf"><i class="fas fa-file-pdf"></i> download .pdf</a>
-							<button class="btn btn-outline-danger" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i> close</button>
+						<div class="modal-header d-none d-lg-flex">
+							<a class="btn btn-light text-dark" download href="/assets/WillMonahan_Resume.pdf"><i class="fas fa-file-pdf"></i> download .pdf</a>
 						</div>
 						<div class="modal-body p-5">
 							<div class="row">
 								<div class="col-lg-7">
 									<div class="row px-3">
 										<div class="col-12">
-											<h1 class="row font-weight-bold text-dark">Will Monahan</h1>
+											<h1 class="row font-weight-bold resume-dark resume-name">Will Monahan</h1>
 											<h4 class="row font-weight-bold pt-3 text-resume-primary">EXPERIENCE</h4>
 										</div>
 									</div>
 									<div class="row px-3 mb-3">
 										<div class="col-12">
-											<h6 class="row font-weight-bold mb-0 text-dark">NYU Courant Institute</h6>
-											<h6 class="row text-dark mb-0">Tutor & Grader</h6>
+											<h6 class="row font-weight-bold mb-0 resume-dark">NYU Courant Institute</h6>
+											<h6 class="row resume-dark mb-0">Tutor & Grader</h6>
 											<small class="row resume-date">JAN 2018 - PRESENT</small>
 											<small class="row">Tutoring, grading, and misc. TA duties for Interactive Computing and Intro to Web Design courses. Teaching concepts related to various web frameworks and game design for web, AR, and VR.</small>
 										</div>
 									</div>
 									<div class="row px-3 mb-3">
 										<div class="col-12">
-											<h6 class="row font-weight-bold mb-0 text-dark">Toronto International Film Festival</h6>
-											<h6 class="row text-dark mb-0">Invitations Assistant</h6>
+											<h6 class="row font-weight-bold mb-0 resume-dark">Toronto International Film Festival</h6>
+											<h6 class="row resume-dark mb-0">Invitations Assistant</h6>
 											<small class="row resume-date">JUN 2016 - AUG 2016 & JUN 2017 - AUG 2017</small>
 											<small class="row">Administrative responsibilities including invitation of festival films & guests, correspondence with stakeholders, and record maintenance of festival SQL database.</small>
 										</div>
 									</div>
 									<div class="row px-3 mb-3">
 										<div class="col-12">
-											<h6 class="row font-weight-bold mb-0 text-dark">British Academy of Film & TV Arts</h6>
-											<h6 class="row text-dark mb-0">Intern</h6>
+											<h6 class="row font-weight-bold mb-0 resume-dark">British Academy of Film & TV Arts</h6>
+											<h6 class="row resume-dark mb-0">Intern</h6>
 											<small class="row resume-date">SEP 2016 - DEC 2016</small>
 											<small class="row">Streamlined event-planning workflow for BAFTA members screening committee, coordinated to liase with members and manage online media & content. Created automated workflow to integrate Google Sheets with committee’s existing event-planning tools and systems.</small>
 										</div>
 									</div>
 									<div class="row px-3 mb-3">
 										<div class="col-12">
-											<h6 class="row font-weight-bold mb-0 text-dark">Partners Film</h6>
-											<h6 class="row text-dark mb-0">Office & Production Assistant</h6>
+											<h6 class="row font-weight-bold mb-0 resume-dark">Partners Film</h6>
+											<h6 class="row resume-dark mb-0">Office & Production Assistant</h6>
 											<small class="row resume-date">MAY 2015 - AUG 2015</small>
 											<small class="row">Administrative responsibilities including invitation of festival films & guests, correspondence with stakeholders, and record maintenance of festival SQL database.</small>
 										</div>
 									</div>
 									<div class="row px-3">
 										<div class="col-12">
-											<h6 class="row font-weight-bold mb-0 text-dark">Toronto International Film Festival</h6>
-											<h6 class="row text-dark mb-0">Next Wave Committee Member</h6>
+											<h6 class="row font-weight-bold mb-0 resume-dark">Toronto International Film Festival</h6>
+											<h6 class="row resume-dark mb-0">Next Wave Committee Member</h6>
 											<small class="row resume-date">JUN 2012 - JUN 2014</small>
 											<small class="row">Coordination of programming, branding, marketing and outreach for the TIFF Next Wave Youth Film Festival.</small>
 										</div>
@@ -87,21 +87,21 @@
 									</div>
 									<div class="row px-3 mb-3">
 										<div class="col-12">
-											<small class="row font-weight-bold text-dark skill-header">Software Development</small>
+											<small class="row font-weight-bold text-dark sub-header">Software Development</small>
 											<small class="row">Python (TensorFlow, MatPlotLib, etc)</small>
 											<small class="row">Javascript (JQuery, AJAX, p5, D3)</small>
 											<small class="row">Database Design (SQL, MongoDB)</small>
 											<small class="row">HTML5 / CSS3 (Bootstrap, Jekyll)</small>
 											<small class="row">Java</small>
 											<small class="row">PHP</small>
-											<small class="row">Version Control (Git/Github)</small>
+											<small class="row">Version Control (Git / Github)</small>
 											<small class="row">Command Line / Terminal scripting</small>
 											<small class="row">Rapid prototyping</small>
 										</div>
 									</div>
 									<div class="row px-3 mb-3">
 										<div class="col-12">
-											<small class="row font-weight-bold text-dark skill-header">General Technical Skills</small>
+											<small class="row font-weight-bold text-dark sub-header">General Technical Skills</small>
 											<small class="row">GPresentations (Powerpoint / GSlides)</small>
 											<small class="row">Data analysis (Excel / GSheets)</small>
 										</div>
@@ -110,20 +110,29 @@
 										<div class="col-12">
 											<h4 class="row font-weight-bold text-resume-primary">EDUCATION</h4>
 
-											<h6 class="row font-weight-bold mb-0 text-dark">New York University</h6>
-											<h6 class="row text-dark mb-0">Bachelor's Degree</h6>
-											<small class="row mb-3 resume-date">GRADUATING MAY 2019</small>
+											<h6 class="row font-weight-bold mb-0 resume-dark">New York University</h6>
+											<h6 class="row resume-dark mb-0">Bachelor's Degree</h6>
+											<small class="row resume-date">GRADUATING MAY 2019</small>
+											<small class="row font-weight-bold text-dark sub-header">Cumulative GPA: 3.7</small>
+											<small class="row font-weight-bold text-dark sub-header mt-1">Computer Science</small>
+											<small class="row">Courant Institute of Mathematical Sciences</small>
+											<small class="row font-weight-bold text-dark sub-header mt-1">Film & Television Production</small>
+											<small class="row">Tisch School of the Arts</small>
+											<small class="row mt-1"><span class="font-weight-bold text-dark sub-header" style="display: contents;">Business of Entertainment, Media, & Technology</span> (Minor)</small>
+											<small class="row">Stern School of Business</small>
 
-											<h6 class="row font-weight-bold mb-0 text-dark">University of Toronto Schools</h6>
-											<h6 class="row text-dark mb-0">Secondary School</h6>
+											<h6 class="row font-weight-bold mb-0 mt-3 resume-dark">University of Toronto Schools</h6>
+											<h6 class="row resume-dark mb-0">Secondary School</h6>
 											<small class="row resume-date">GRADUATED JUNE 2014</small>
+											<small class="row">Ontario Secondary School Diploma</small>
+											<small class="row">Ontario Scholar</small>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="modal-footer">
-							<small class="text-muted">&copy; Will Monahan 2018</small>
+						<div class="modal-footer d-lg-none">
+							<a class="btn btn-light text-dark" download href="/assets/WillMonahan_Resume.pdf"><i class="fas fa-file-pdf"></i> download .pdf</a>
 						</div>
 					</div>
 				</div>
@@ -141,7 +150,7 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$("#home").addClass("active");
+				$("#resume").addClass("active");
 			});
 		</script>
 	</body>
