@@ -54,3 +54,7 @@ p > a:hover {
 .footer:hover {
 	background-color: #f0f0f0;
 }
+
+button.navbar-toggler {
+	border: none;
+}
