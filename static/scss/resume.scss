@@ -1,41 +1,42 @@
 .resume {
-	font-family: 'Open Sans',
-	sans-serif;
-}
-
-.resume .text-resume-primary {
-	color: #0077b5;
-	font-size: 0.95em;
-}
-
-.resume h6,
-.resume h1,
-.resume .sub-header {
-	font-family: 'Noto Serif', sans-serif;
-}
-
-.resume .resume-date {
-	font-size: 70%;
-	padding-top: 0.35em;
-	padding-bottom: 0.3em;
-}
-
-.resume small {
-	color: #666;
-}
-
-.resume .sub-header {
-	color: #434343;
-}
-
-.resume .resume-dark {
-	color: #000!important;
-}
-
-.resume .resume-name, .resume .invisible {
-	font-size: 3em;
-}
-
-.resume .modal-header {
-	justify-content: flex-end;
+	font-family: 'Open Sans', sans-serif;
+	
+	.text-resume-primary {
+		color: #0077b5;
+		font-size: 0.95em;
+	}
+	
+	h6,
+	h1,
+	.sub-header {
+		font-family: 'Noto Serif',
+		sans-serif;
+	}
+	
+	.resume-date {
+		font-size: 70%;
+		padding-top: 0.35em;
+		padding-bottom: 0.3em;
+	}
+	
+	small {
+		color: #666;
+	}
+	
+	.sub-header {
+		color: #434343;
+	}
+	
+	.resume-dark {
+		color: #000!important;
+	}
+	
+	.resume-name,
+	.invisible {
+		font-size: 3em;
+	}
+	
+	.modal-header {
+		justify-content: flex-end;
+	}
 }

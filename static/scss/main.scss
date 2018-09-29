@@ -1,60 +1,65 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
 body {
-	background-color: #f8f9fa;
-	min-height: 100vh;
+    background-color: #f8f9fa;
+    min-height: 100vh; // allows for bottom-sticking footer
 }
 
-#hiddenrow {
-	margin-bottom: 30px;
+nav {
+    a {
+        transition: 0.5s;
+    }
 }
 
-nav a {
-	transition: 0.5s;
+nav.navbar {
+    .navbar-brand {
+        color: rgba(0, 0, 0, .7);
+    }
 }
 
-nav.navbar .navbar-brand {
-	color: rgba(0,0,0,.7);
-}
-
-p > a {
-	transition: 0.5s;
-}
-
-p > a:hover {
-	text-decoration: none;
+p {
+    > a {
+        transition: 0.5s;
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 .navbar {
-	margin-bottom: 40px;
-	text-align: center;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 @media (min-width: 576px) {
-	.navbar {
-		margin-top: 30px;
-	}
+    .navbar {
+        margin-top: 30px;
+    }
 }
 
-.social .social-link {
-	font-size: 1.5em;
-	color: rgba(0,0,0,.3);
-	transition: 0.5s;
-
-}
-
-.social .social-link:hover {
-	color: rgba(0,0,0,.5);
+.social {
+    .social-link {
+        font-size: 1.5em;
+        color: rgba(0, 0, 0, .3);
+        transition: 0.5s;
+        
+        &:hover {
+            color: rgba(0, 0, 0, .5);
+        }
+    }
 }
 
 .footer {
-	background-color: #f5f5f5;
-	width: 100%;
-	transition: .5s;
-}
-
-.footer:hover {
-	background-color: #f0f0f0;
+    background-color: #f5f5f5;
+    width: 100%;
+    transition: .5s;
+    
+    &:hover {
+        background-color: #f0f0f0;
+    }
 }
 
 button.navbar-toggler {
-	border: none;
+    border: none;
 }
