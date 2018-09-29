@@ -2,9 +2,11 @@ const debug = require('debug')('app');
 const express = require('express');
 const path = require('path');
 const hbs = require('express-handlebars');
+const compression = require('compression');
 const port = process.env.PORT;
 
 const app = express();
+app.use(compression());
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
