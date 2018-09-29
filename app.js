@@ -15,7 +15,10 @@ app.engine('hbs', hbs({
     partialsDir: path.join(__dirname, 'views/partials')
 }));
 
-app.use('/static', express.static('static'));
+app.use('/static', express.static(path.join(__dirname, 'static'))); // serve my static assets
+app.use('/static', express.static(path.join(__dirname, 'node_modules/bootstrap/dist'))); // serve bootstrap static assets
+app.use('/static', express.static(path.join(__dirname, 'node_modules/jquery/dist'))); // serve jquery static assets
+app.use('/static', express.static(path.join(__dirname, 'node_modules/@fortawesome/fontawesome-free'))); // serve fontawesome static assets
 
 app.get('/', (req, res) => {
     res.render('pages/home', { activeLink: 'home', title: 'Will Monahan' });
