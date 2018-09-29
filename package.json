@@ -4,8 +4,11 @@
   "description": "Will Monahan's personal website",
   "main": "app.js",
   "scripts": {
-    "sass": "./node_modules/.bin/sass --update static/scss:static/css --style compressed",
-    "sass:watch": "./node_modules/.bin/sass --watch static/scss:static/css --style compressed",
+    "browsersync": "browser-sync start --proxy 'localhost:3000'",
+    "localtunnel": "lt --port 3000",
+    "ngrok": "ngrok http 3000",
+    "sass": "sass --update static/scss:static/css --style compressed",
+    "sass:watch": "sass --watch static/scss:static/css --style compressed",
     "start": "nodemon -r dotenv/config app.js"
   },
   "repository": {
@@ -29,6 +32,9 @@
     "nodemon": "^1.18.4"
   },
   "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "localtunnel": "^1.9.1",
+    "ngrok": "^3.1.0",
     "sass": "^1.14.1"
   }
 }
