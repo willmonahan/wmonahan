@@ -1,4 +1,4 @@
-# willmonahan.github.io
+# wmonahan
 Welcome! This is the repository for my personal website.
 
 My website can be found at [wmonahan.com](https://wmonahan.com)
